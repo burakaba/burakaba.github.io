@@ -116,17 +116,8 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 26px 0;
-  background: rgba(0, 0, 0, 0.9);
-}
-
-#header.header-transparent {
-  background: transparent;
-}
-
-#header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 18px 0;
+  padding: 0px 0;
+  background: rgba(182, 167, 167, 0.8);
 }
 
 #header .logo {
@@ -138,7 +129,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   padding-left: 10px;
-  border-left: 4px solid #000000;
 }
 
 #header .logo a {
@@ -454,6 +444,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .carousel-fade .carousel-inner .carousel-item {
+  margin-top:125px;
   transition-property: opacity;
 }
 
