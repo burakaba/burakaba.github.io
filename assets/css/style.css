@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 0px 0;
-  background: rgba(182, 167, 167, 0.8);
+  background: rgba(44, 35, 35, 0.8);
 }
 
 #header .logo {
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .carousel-fade .carousel-inner .carousel-item {
-  margin-top:125px;
+  margin-top:75px;
   transition-property: opacity;
 }
 
